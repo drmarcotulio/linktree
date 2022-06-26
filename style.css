@@ -1,0 +1,104 @@
+/* Style Settings */
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+:root {
+	--font: 'Karla', 'Karla', sans-serif;
+}
+
+body {
+	background-color: #7551e7;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #7551e7;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #7551e7;
+}
+
+#userPhoto {
+	height: 100%;
+	display: block;
+	margin: 15px auto 10px;	
+	transition: all 0.15s;
+}
+
+#userName {
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.25;
+	display: block;
+	font-family: var(--font);
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#links {
+	max-width: 675px;
+	width: 95%;
+	display: block;
+	margin: 13px auto;
+}
+
+.link {
+	background-color: #01A79B;
+	color: black;
+	font-size: 1rem;
+	font-family: var(--font);
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+
+	display: block;
+	margin-bottom: 20px;
+	padding: 17px;
+	transition: all 0.15s;
+	box-shadow: 10px 10px #000000;
+}
+
+.link:hover {
+	box-shadow: 5px 5px #000000;
+	transform: translateY(6px);
+}
+
+.link:active {
+	transform: translateY(6px);
+	box-shadow: 0px 0px #000000;
+}
+
+.footer {
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.media {
+	background: #f58634;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	box-shadow: 0px 6px #e06d1b;
+	transition: all 0.15s;
+}
+
+.media:hover {
+	box-shadow: 0px 8px #e06d1b;
+	transform: translateY(-2px);
+}
+
+.media:active {
+	transform: translateY(6px);
+	box-shadow: 0px 0px #e06d1b;
+}
