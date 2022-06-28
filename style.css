@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #7551e7;
+	background-color: #5b2eec;
 }
 
 body::-webkit-scrollbar {
@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb {
 
 #links {
 	max-width: 675px;
-	width: 95%;
+	width: 85%;
 	display: block;
 	margin: 13px auto;
 }
@@ -51,13 +51,14 @@ body::-webkit-scrollbar-thumb {
 	background-color: #01A79B;
 	color: black;
 	font-size: 1rem;
+	font-weight: bold;
 	font-family: var(--font);
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	padding: 17px;
 	transition: all 0.15s;
 	box-shadow: 10px 10px #000000;
