@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
 #userPhoto {
 	height: 100%;
 	display: block;
-	margin: 10% auto 20px;	
+	margin: 40px auto 20px;	
 	transition: all 0.15s;
 
 }
