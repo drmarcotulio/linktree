@@ -24,8 +24,9 @@ body::-webkit-scrollbar-thumb {
 #userPhoto {
 	height: 100%;
 	display: block;
-	margin: 15px auto 10px;	
+	margin: 10% auto 20px;	
 	transition: all 0.15s;
+
 }
 
 #userName {
@@ -33,9 +34,11 @@ body::-webkit-scrollbar-thumb {
 	font-size: 1rem;
 	font-weight: 600;
 	line-height: 1.25;
-	display: block;
 	font-family: var(--font);
+
+	display: block;
 	width: 100%;
+	
 	text-align: center;
 	text-decoration: none;
 }
@@ -44,13 +47,13 @@ body::-webkit-scrollbar-thumb {
 	max-width: 675px;
 	width: 85%;
 	display: block;
-	margin: 13px auto;
+	margin: 25px auto;
 }
 
 .link {
 	background-color: #01A79B;
 	color: black;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	font-weight: bold;
 	font-family: var(--font);
 	font-weight: bold;
