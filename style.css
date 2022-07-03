@@ -86,6 +86,10 @@ body::-webkit-scrollbar-thumb {
 	text-decoration: none;
 }
 
+footer img {
+	height: 150px;
+}
+
 .media {
 	background: #f58634;
 	width: 38px;
